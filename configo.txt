@@ -1,0 +1,22 @@
+files that needs Database interaction
+
+1:pages/gtx_combine.php
+2:pages/gtx_buy.php
+3:asteroid/login_process.php
+4:asteroid/submit_class_create.php
+5:asteroid/my_learners.php
+6:asteroid/manage_class.php
+7:asteroid/learner_search.php
+8:asteroid/learner_invitations.php
+9:asteroid/gtx_workshop.php
+10:asteroid/gtx_combine.php
+11:asteroid/includes/buddify.php 
+12:asteroid/includes/autosuggest.php
+13:asteroid/includes/addlearner.php
+14:asteroid/includes/accept_req.php
+15:asteroid/includes/pathsto_db.php
+16:asteroid/includes/loadimage.php
+17:asteroid/includes/functions.php
+18:asteroid/
+19:asteroid/
+20:asteroid/
