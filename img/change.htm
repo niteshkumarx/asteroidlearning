@@ -1,0 +1,40 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- Begin
+var rand1 = 0;
+var useRand = 0;
+
+images = new Array;
+images[1] = new Image();
+images[1].src = "9.jpg";
+images[2] = new Image();
+images[2].src = "2.jpg";
+images[3] = new Image();
+images[3].src = "3.jpg";
+images[4] = new Image();
+images[4].src = "4.jpg";
+images[5] = new Image();
+images[5].src = "5.jpg";
+
+function swapPic() {
+var imgnum = images.length - 1;
+do {
+var randnum = Math.random();
+rand1 = Math.round((imgnum - 1) * randnum) + 1;
+} while (rand1 == useRand);
+useRand = rand1;
+document.randimg.src = images[useRand].src;
+}
+// End -->
+</script>
+
+</head>
+
+<body onLoad="swapPic();"><img name="randimg" src="9.jpg"
+width="800" height="600" border="0" alt="">
+
+</body>
+</html>

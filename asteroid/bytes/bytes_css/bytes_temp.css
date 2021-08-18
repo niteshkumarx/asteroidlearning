@@ -1,0 +1,28 @@
+
+	.pic
+{
+	background-image : url(pic.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 511px;
+	top : 0px;
+	width : 486px;
+	height : 304px;
+		border-radius: 10x 10px 0px 0px; 
+}
+.caption
+{
+	background : #2060C6;
+
+	position : absolute ;
+	left : 512px;
+	top : 303px;font-family : Calibri;
+	font-size : 12px;
+	border-radius: 0px 0px  10x 10px;
+	color : #ffffff;
+
+	width : 484px;
+	height : 109px;
+	padding:5px 5px 5px 5px;
+	text-align:justify;
+}

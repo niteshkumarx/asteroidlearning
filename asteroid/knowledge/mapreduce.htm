@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Included content</title>
+	<style type="text/css">
+		p {
+			font-family: "Trebuchet MS", Arial, sans-serif;
+			font-size: 10pt;
+			text-align:justify;
+		}
+		h3 {
+			font-family: "Trebuchet MS", Arial, sans-serif;
+			color: #666;
+		}
+	</style>
+</head>
+<body style="margin:0;padding:0">
+
+<h3>Map Reduce</h3>
+<p>MapReduce is a programming model and an associated implementation for processing
+ and generating large data sets with a parallel, distributed algorithm on a cluster.</p>
+<p>A popular open-source implementation that has support for distributed shuffles is part of Apache Hadoop.
+ The name MapReduce originally referred to the proprietary Google technology, but has since been generalized.
+ MapReduce as a big data processing model is considered dead by many domain experts,
+ as development has moved on to more capable and less disk-oriented mechanisms that incorporate full
+ map and reduce capabilities.</p>
+<p>
+The model is inspired by the map and reduce functions commonly used in functional programming,
+ although their purpose in the MapReduce framework is not the same as in their original forms.
+ The key contributions of the MapReduce framework are not the actual map and reduce functions,
+ but the scalability and fault-tolerance achieved for a variety of applications by optimizing
+ the execution engine once.
+ Hadoop MapReduce is a software framework for easily writing applications which process
+ vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes
+ ) of commodity hardware in a reliable, fault-tolerant manner.
+
+A MapReduce job usually splits the input data-set into independent chunks which are processed 
+by the map tasks in a completely parallel manner. The framework sorts the outputs of the maps,
+ which are then input to the reduce tasks. Typically both the input and the output of the job are stored
+ in a file-system. The framework takes care of scheduling tasks, monitoring them and re-executes the failed tasks.
+<br><br></p>
+
+</body>
+</html>
